@@ -1,0 +1,588 @@
+/* =========================================================
+   SISTEMA ACADÉMICO ESCOLAR
+   MODO OSCURO REAL
+   ========================================================= */
+
+
+/* =========================================================
+   FONDO GENERAL
+   ========================================================= */
+
+body:has(.tema-oscuro) {
+    background: #0b1120 !important;
+    color: #f8fafc !important;
+}
+
+body:has(.tema-oscuro) #root {
+    background: #0b1120 !important;
+    color: #f8fafc !important;
+    min-height: 100vh;
+}
+
+
+/* =========================================================
+   APP
+   ========================================================= */
+
+.app.tema-oscuro {
+    background: #0b1120 !important;
+    color: #f8fafc !important;
+}
+
+
+/* =========================================================
+   SIDEBAR
+   ========================================================= */
+
+.app.tema-oscuro .sidebar {
+    background: #111827 !important;
+
+    border-right-color: #334155 !important;
+
+    color: #f8fafc !important;
+
+    box-shadow:
+        5px 0 20px rgba(0, 0, 0, 0.18);
+}
+
+
+/* LOGO */
+
+.app.tema-oscuro .logo {
+    border-bottom-color: #334155 !important;
+}
+
+.app.tema-oscuro .logo h1 {
+    color: #ffffff !important;
+}
+
+.app.tema-oscuro .logo span {
+    color: #94a3b8 !important;
+}
+
+
+/* MENU */
+
+.app.tema-oscuro .menu-item {
+    color: #cbd5e1 !important;
+}
+
+.app.tema-oscuro .menu-item:hover {
+    background: rgba(0, 247, 255, 0.08) !important;
+
+    color: #00f7ff !important;
+
+    box-shadow:
+        0 0 10px rgba(0, 247, 255, 0.08);
+}
+
+.app.tema-oscuro .menu-item.activo {
+    background: var(--color-principal) !important;
+
+    color: #ffffff !important;
+
+    box-shadow:
+        0 6px 18px rgba(79, 124, 255, 0.35);
+}
+
+
+/* FOOTER */
+
+.app.tema-oscuro .sidebar-footer {
+    border-top-color: #334155 !important;
+}
+
+.app.tema-oscuro .sidebar-footer strong {
+    color: #ffffff !important;
+}
+
+.app.tema-oscuro .sidebar-footer small {
+    color: #94a3b8 !important;
+}
+
+
+/* =========================================================
+   CONTENIDO PRINCIPAL
+   ========================================================= */
+
+.app.tema-oscuro .contenido-principal {
+    background: #0b1120 !important;
+}
+
+
+/* =========================================================
+   HEADER
+   ========================================================= */
+
+.app.tema-oscuro .header {
+    background: #111827 !important;
+
+    border-bottom-color: #334155 !important;
+
+    color: #ffffff !important;
+}
+
+.app.tema-oscuro .header h2 {
+    color: #ffffff !important;
+}
+
+.app.tema-oscuro .header p {
+    color: #94a3b8 !important;
+}
+
+
+/* PERFIL */
+
+.app.tema-oscuro .perfil strong {
+    color: #ffffff !important;
+}
+
+.app.tema-oscuro .perfil span {
+    color: #94a3b8 !important;
+}
+
+
+/* AVATAR */
+
+.app.tema-oscuro .perfil-avatar,
+.app.tema-oscuro .maestra-avatar {
+    background: #273449 !important;
+}
+
+
+/* BOTON TEMA */
+
+.app.tema-oscuro .boton-tema {
+    background: #1e293b !important;
+
+    color: #ffffff !important;
+
+    border: 1px solid #475569 !important;
+}
+
+.app.tema-oscuro .boton-tema:hover {
+    background: #263449 !important;
+
+    border-color: #00f7ff !important;
+
+    color: #ffffff !important;
+
+    box-shadow:
+        0 0 10px rgba(0, 247, 255, 0.25);
+}
+
+
+/* =========================================================
+   TODOS LOS TITULOS
+   ========================================================= */
+
+.app.tema-oscuro h1,
+.app.tema-oscuro h2,
+.app.tema-oscuro h3,
+.app.tema-oscuro h4,
+.app.tema-oscuro h5,
+.app.tema-oscuro h6 {
+    color: #ffffff !important;
+}
+
+
+/* =========================================================
+   TEXTOS
+   ========================================================= */
+
+.app.tema-oscuro p {
+    color: #cbd5e1 !important;
+}
+
+.app.tema-oscuro span {
+    color: #e2e8f0;
+}
+
+.app.tema-oscuro strong {
+    color: #ffffff;
+}
+
+.app.tema-oscuro label {
+    color: #f8fafc !important;
+}
+
+
+/* =========================================================
+   TITULO DE PAGINAS
+   ========================================================= */
+
+.app.tema-oscuro .pagina-titulo h1 {
+    color: #ffffff !important;
+}
+
+.app.tema-oscuro .pagina-titulo p {
+    color: #94a3b8 !important;
+}
+
+
+/* =========================================================
+   ESTADISTICAS
+   ========================================================= */
+
+.app.tema-oscuro .stat-card {
+    background: #1e293b !important;
+
+    border-color: #334155 !important;
+
+    color: #ffffff !important;
+
+    box-shadow:
+        0 8px 25px rgba(0, 0, 0, 0.18);
+}
+
+.app.tema-oscuro .stat-card strong {
+    color: #ffffff !important;
+}
+
+.app.tema-oscuro .stat-card span {
+    color: #94a3b8 !important;
+}
+
+.app.tema-oscuro .stat-icon {
+    background: #273449 !important;
+}
+
+
+/* =========================================================
+   PANELES
+   ========================================================= */
+
+.app.tema-oscuro .panel {
+    background: #1e293b !important;
+
+    border-color: #334155 !important;
+
+    color: #ffffff !important;
+}
+
+.app.tema-oscuro .panel-header h2 {
+    color: #ffffff !important;
+}
+
+.app.tema-oscuro .panel-header p {
+    color: #94a3b8 !important;
+}
+
+
+/* =========================================================
+   ALUMNOS DEL DASHBOARD
+   ========================================================= */
+
+.app.tema-oscuro .alumno-card {
+    border-bottom-color: #334155 !important;
+}
+
+.app.tema-oscuro .alumno-info strong {
+    color: #ffffff !important;
+}
+
+.app.tema-oscuro .alumno-info span {
+    color: #94a3b8 !important;
+}
+
+.app.tema-oscuro .alumno-promedio strong {
+    color: #ffffff !important;
+}
+
+.app.tema-oscuro .alumno-avatar {
+    background: #273449 !important;
+}
+
+
+/* =========================================================
+   BUSCADOR
+   ========================================================= */
+
+.app.tema-oscuro .barra-herramientas {
+    background: #1e293b !important;
+
+    border-color: #334155 !important;
+}
+
+.app.tema-oscuro .barra-herramientas input {
+    background: #111827 !important;
+
+    color: #ffffff !important;
+
+    border-color: #475569 !important;
+}
+
+.app.tema-oscuro .barra-herramientas input::placeholder {
+    color: #64748b !important;
+}
+
+
+/* =========================================================
+   TABLAS
+   ========================================================= */
+
+.app.tema-oscuro .tabla-container {
+    background: #1e293b !important;
+
+    border-color: #334155 !important;
+}
+
+.app.tema-oscuro table {
+    color: #f8fafc !important;
+}
+
+.app.tema-oscuro th {
+    background: #111827 !important;
+
+    color: #cbd5e1 !important;
+
+    border-bottom-color: #334155 !important;
+}
+
+.app.tema-oscuro td {
+    color: #e2e8f0 !important;
+
+    border-bottom-color: #334155 !important;
+}
+
+.app.tema-oscuro td strong {
+    color: #ffffff !important;
+}
+
+.app.tema-oscuro tbody tr:hover {
+    background: rgba(0, 247, 255, 0.035) !important;
+}
+
+
+/* =========================================================
+   INPUT DE CALIFICACIONES
+   ========================================================= */
+
+.app.tema-oscuro .input-calificacion {
+    background: #111827 !important;
+
+    color: #ffffff !important;
+
+    border-color: #475569 !important;
+}
+
+.app.tema-oscuro .input-calificacion:focus {
+    border-color: #00f7ff !important;
+
+    box-shadow:
+        0 0 0 2px rgba(0, 247, 255, 0.15),
+        0 0 8px rgba(0, 247, 255, 0.15);
+}
+
+
+/* =========================================================
+   MATERIAS
+   ========================================================= */
+
+.app.tema-oscuro .materia-card {
+    background: #1e293b !important;
+
+    border-color: #334155 !important;
+
+    color: #ffffff !important;
+}
+
+.app.tema-oscuro .materia-card h3 {
+    color: #ffffff !important;
+}
+
+.app.tema-oscuro .materia-card span {
+    color: #94a3b8 !important;
+}
+
+.app.tema-oscuro .materia-icono {
+    background: #273449 !important;
+}
+
+
+/* =========================================================
+   REPORTES
+   ========================================================= */
+
+.app.tema-oscuro .reporte-card {
+    background: #1e293b !important;
+
+    border-color: #334155 !important;
+
+    color: #ffffff !important;
+}
+
+.app.tema-oscuro .reporte-card h2 {
+    color: #ffffff !important;
+}
+
+.app.tema-oscuro .reporte-card p {
+    color: #94a3b8 !important;
+}
+
+
+/* =========================================================
+   CONFIGURACION
+   ========================================================= */
+
+.app.tema-oscuro .config-card {
+    background: #1e293b !important;
+
+    border-color: #334155 !important;
+
+    color: #ffffff !important;
+}
+
+.app.tema-oscuro .config-card h2 {
+    color: #ffffff !important;
+}
+
+.app.tema-oscuro .config-card p {
+    color: #94a3b8 !important;
+}
+
+.app.tema-oscuro .config-icono {
+    color: #ffffff !important;
+}
+
+
+/* =========================================================
+   OPCIONES DE CONFIGURACION
+   ========================================================= */
+
+.app.tema-oscuro .opcion {
+    background: #111827 !important;
+
+    color: #e2e8f0 !important;
+
+    border-color: #475569 !important;
+}
+
+.app.tema-oscuro .opcion:hover {
+    border-color: #00f7ff !important;
+
+    color: #ffffff !important;
+
+    box-shadow:
+        0 0 10px rgba(0, 247, 255, 0.15);
+}
+
+.app.tema-oscuro .opcion.activa {
+    background: var(--color-principal) !important;
+
+    color: #ffffff !important;
+
+    border-color: var(--color-principal) !important;
+}
+
+
+/* =========================================================
+   FORMULARIOS
+   ========================================================= */
+
+.app.tema-oscuro .formulario label {
+    color: #f8fafc !important;
+}
+
+.app.tema-oscuro .formulario input,
+.app.tema-oscuro .formulario select {
+    background: #111827 !important;
+
+    color: #ffffff !important;
+
+    border-color: #475569 !important;
+}
+
+.app.tema-oscuro .formulario input::placeholder {
+    color: #64748b !important;
+}
+
+.app.tema-oscuro .formulario select option {
+    background: #111827 !important;
+
+    color: #ffffff !important;
+}
+
+.app.tema-oscuro .formulario input:focus,
+.app.tema-oscuro .formulario select:focus {
+    border-color: #00f7ff !important;
+
+    box-shadow:
+        0 0 0 2px rgba(0, 247, 255, 0.12);
+}
+
+
+/* =========================================================
+   MODAL
+   ========================================================= */
+
+.app.tema-oscuro .modal-overlay {
+    background: rgba(0, 0, 0, 0.72) !important;
+}
+
+.app.tema-oscuro .modal {
+    background: #1e293b !important;
+
+    color: #ffffff !important;
+
+    border: 1px solid #334155 !important;
+}
+
+.app.tema-oscuro .modal-header {
+    border-bottom-color: #334155 !important;
+}
+
+.app.tema-oscuro .modal-header h3 {
+    color: #ffffff !important;
+}
+
+.app.tema-oscuro .modal-cerrar {
+    color: #ffffff !important;
+}
+
+.app.tema-oscuro .modal-footer {
+    border-top-color: #334155 !important;
+}
+
+
+/* =========================================================
+   ESTADOS VACIOS
+   ========================================================= */
+
+.app.tema-oscuro .estado-vacio {
+    color: #94a3b8 !important;
+}
+
+
+/* =========================================================
+   BARRA DE PROMEDIO
+   ========================================================= */
+
+.app.tema-oscuro .barra-promedio {
+    background: #334155 !important;
+}
+
+
+/* =========================================================
+   TEXTO SECUNDARIO
+   ========================================================= */
+
+.app.tema-oscuro .promedio-grande span,
+.app.tema-oscuro .promedio-descripcion {
+    color: #94a3b8 !important;
+}
+
+
+/* =========================================================
+   EFECTO NEON PARA TEXTOS IMPORTANTES
+   ========================================================= */
+
+.app.tema-oscuro .pagina-titulo h1:hover,
+.app.tema-oscuro .panel-header h2:hover,
+.app.tema-oscuro .materia-card h3:hover {
+    color: #ffffff !important;
+
+    text-shadow:
+        0 0 4px #ffffff,
+        0 0 8px rgba(0, 247, 255, 0.65);
+}

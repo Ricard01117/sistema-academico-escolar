@@ -1,0 +1,41 @@
+.tema-oscuro {
+  --color-texto: #f1f5f9;
+  --color-texto-secundario: #94a3b8;
+
+  --color-fondo: #0f172a;
+  --color-panel: #1e293b;
+
+  --color-borde: #334155;
+}
+
+.tema-oscuro .sidebar {
+  background: #111827;
+}
+
+.tema-oscuro .header {
+  background: #111827;
+  border-color: #334155;
+}
+
+.tema-oscuro input,
+.tema-oscuro select,
+.tema-oscuro textarea {
+  background: #1e293b;
+  color: #f1f5f9;
+  border-color: #334155;
+}
+
+.tema-oscuro table {
+  color: #f1f5f9;
+}
+
+.tema-oscuro th {
+  background: #0f172a;
+}
+
+.tema-oscuro .materia-icono,
+.tema-oscuro .stat-icon,
+.tema-oscuro .perfil-avatar,
+.tema-oscuro .maestra-avatar {
+  background: #273449;
+}
